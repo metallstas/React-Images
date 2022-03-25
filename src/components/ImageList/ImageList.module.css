@@ -1,0 +1,26 @@
+.imageWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btnBlock {
+  margin: 20px 0;
+}
+
+.btnBlock button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 5px;
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btnBlock button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+} 
